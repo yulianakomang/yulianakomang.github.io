@@ -23,7 +23,6 @@
 }
 #panel ul{
 	list-style: none;
-	display: inline-block;
 }
 #panel li{
 	display: inline-block;
@@ -53,8 +52,39 @@
 	content: "";
 	position: absolute;
 	bottom: 0;
-	width: 140px;
+	width: 100%;
 	background: #525252;
 	height: 3px;
 	left: 0;
+}
+.burger{
+	padding: 8px 10px;
+    border: 2px solid #585757;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: none;
+}
+.burger:hover{
+	cursor: pointer;
+    background: #585757;
+    color: #fff;
+}
+
+
+@media screen and (max-width:850px){
+	.burger{
+		display: block;
+	}
+	.right ul{
+		display: none;
+		position: absolute;
+		left: 0px;
+		top: 50px;
+		background: #b3b3b3;
+		padding: 0;
+	}
+	.right ul li a,.right ul,.right li{
+		width: 100% !important;
+	}
 }
