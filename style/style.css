@@ -91,3 +91,29 @@
 		width: 100% !important;
 	}
 }
+
+/*BG hero*/
+.bg{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.bg h1{
+	color: #fff;
+}
+.bg p{
+	color: #cac9c9;
+}
+.bg-portofolio{
+	background-color: #365396;
+	background-image: url(../Portofolio/img/portofolio-bg.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right;
+}
+.bg-about{
+	background-color: #37822e;
+	/*background-image: url(../Portofolio/img/portofolio-bg.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right;*/
+}
