@@ -117,3 +117,32 @@
 	background-size: 50%;
 	background-position: right;*/
 }
+/*tabber*/
+.tabber{
+	float: right;
+	position: relative;
+	display: block;
+}
+.tabber nav{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	width: 500px;
+}
+.tabber ul{
+	list-style: none;
+	padding: 0px !important;
+	display: inline-block;
+}
+.tabber li{
+	display: inline-block;
+}
+.tabber a{
+	display: block;
+	padding: 8px 0px 8px 15px;
+	color: #2d2d2d;
+}
+.tabber a:hover{
+	text-decoration: none;
+	color: #365396;
+}
