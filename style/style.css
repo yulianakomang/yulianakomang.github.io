@@ -126,7 +126,7 @@
 .tabber nav{
 	position: absolute;
 	right: 0;
-	top: 50px;
+	top: 70px;
 	width: 500px;
 }
 .tabber ul{
@@ -145,4 +145,36 @@
 .tabber a:hover{
 	text-decoration: none;
 	color: #365396;
+}
+/*content*/
+.box-content .inner{
+	background: #fff;
+}
+.inner img{
+	width: 100%;
+}
+.abu{
+	background: #e2e2e2;
+}
+.center{
+	text-align: center;
+}
+.box-title{
+	font-size: 24px;
+	text-align: center;
+}
+.box-body{
+	padding: 10px;
+}
+#content-wp .col-md-3,#content-php .col-md-3{
+	margin-bottom: 25px;
+}
+@media screen and (max-width:992px){
+	.tabber nav{
+		position: relative;
+		right: none;
+		top: 0;
+		width: auto;
+
+	}
 }
