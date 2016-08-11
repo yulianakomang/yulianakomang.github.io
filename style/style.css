@@ -177,4 +177,8 @@
 		width: auto;
 
 	}
+	.bg-portofolio{
+		background-size: 100%;
+		background-position: right top;
+	}
 }
